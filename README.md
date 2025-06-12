@@ -2,7 +2,7 @@
 
 > An opinionated custom start kit for Laravel projects, building on the official Laravel starter kit with Livewire and Flux UI
 
-This repository is an alternative starting point to the [Laravel starter kit]([url](https://github.com/laravel/livewire-starter-kit)) that uses Livewire with Flux UI. This is a great starting point, but I was bored of performing the same actions when starting new projects so decided to create this custom starter kit, and now offer it to anyone else who might find it useful.
+This repository is an alternative starting point to the [Laravel starter kit](https://github.com/laravel/livewire-starter-kit) that uses Livewire with Flux UI. This is a great starting point, but I was bored of performing the same actions when starting new projects so decided to create this custom starter kit, and now offer it to anyone else who might find it useful.
 
 **The goal for this custom starter kit is to be an up-to-date version of the offical starter kit with the below enhancements.**
 
