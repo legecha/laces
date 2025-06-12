@@ -22,7 +22,7 @@ test('password can be confirmed', function () {
     $this->actingAs($user);
 
     $response = Livewire::test(ConfirmPassword::class)
-        ->set('password', 'password')
+        ->set('password', 'pass123WORD!@£')
         ->call('confirmPassword');
 
     $response
@@ -36,7 +36,7 @@ test('password is not confirmed with invalid password', function () {
     $this->actingAs($user);
 
     $response = Livewire::test(ConfirmPassword::class)
-        ->set('password', 'wrong-password')
+        ->set('password', 'wrong-pass123WORD!@£')
         ->call('confirmPassword');
 
     $response->assertHasErrors(['password']);
