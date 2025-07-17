@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Livewire\Auth;
 
 use Illuminate\Auth\Events\PasswordReset;
@@ -31,7 +33,7 @@ class ResetPassword extends Component
     {
         $this->token = $token;
 
-        $this->email = request()->string('email');
+        $this->email = (string) request()->string('email');
     }
 
     /**
