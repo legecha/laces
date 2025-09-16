@@ -37,7 +37,7 @@ test('reset password screen can be rendered', function () {
         ->call('sendPasswordResetLink');
 
     Notification::assertSentTo($user, ResetPasswordNotification::class, function ($notification) {
-        $response = $this->get('/reset-password/'.$notification->token);
+        $response = $this->get('/reset-password/' . $notification->token);
 
         $response->assertStatus(200);
 
