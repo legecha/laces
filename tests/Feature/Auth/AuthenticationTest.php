@@ -17,7 +17,7 @@ test('users can authenticate using the login screen', function () {
 
     $response = Livewire::test(Login::class)
         ->set('email', $user->email)
-        ->set('password', 'password')
+        ->set('password', 'pass123WORD!@£')
         ->call('login');
 
     $response
@@ -32,7 +32,7 @@ test('users can not authenticate with invalid password', function () {
 
     $response = Livewire::test(Login::class)
         ->set('email', $user->email)
-        ->set('password', 'wrong-password')
+        ->set('password', 'wrong-pass123WORD!@£')
         ->call('login');
 
     $response->assertHasErrors('email');
