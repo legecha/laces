@@ -1,8 +1,8 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/livewire-starter-kit",
+    "name": "legecha/laces",
     "type": "project",
-    "description": "The official Laravel starter kit for Livewire.",
+    "description": "The Laces starter kit - an opinionated set of improvements to the official Laravel starter kit for Livewire.",
     "keywords": [
         "laravel",
         "framework"
@@ -67,6 +67,10 @@
         "lint": "duster lint"
     },
     "extra": {
+        "laces": {
+            "laravel-version": "v12.29.0",
+            "livewire-starter-kit-version": "v1.0.1"
+        },
         "laravel": {
             "dont-discover": []
         }
