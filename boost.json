@@ -1,0 +1,30 @@
+{
+    "agents": [
+        "copilot"
+    ],
+    "cloud": false,
+    "guidelines": true,
+    "mcp": true,
+    "nightwatch": false,
+    "packages": [
+        "livewire/blaze"
+    ],
+    "sail": false,
+    "skills": [
+        "fortify-development",
+        "laravel-best-practices",
+        "fluxui-development",
+        "livewire-development",
+        "pest-testing",
+        "tailwindcss-development",
+        "blaze-optimize",
+        "actions-and-dtos",
+        "api-design",
+        "code-quality",
+        "code-structure",
+        "eloquent-models",
+        "livewire-architecture",
+        "project-tooling",
+        "testing"
+    ]
+}
